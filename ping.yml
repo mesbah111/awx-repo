@@ -1,4 +1,5 @@
 - name: Ping Test Play Book
+  become: no
   hosts: localhost
   tasks:
     - name: Ping Test
