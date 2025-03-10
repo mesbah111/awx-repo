@@ -1,0 +1,5 @@
+- name: Ping Test Play Book
+  hosts: all
+  tasks:
+    - name: Ping Test
+      ping:
