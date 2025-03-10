@@ -1,5 +1,5 @@
 - name: Ping Test Play Book
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Ping Test
       ping:
