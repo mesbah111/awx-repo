@@ -1,4 +1,6 @@
 - name: Ping Test Play Book
+  become_method: sudo
+  become: yes
   hosts: localhost
   tasks:
     - name: Ping Test
